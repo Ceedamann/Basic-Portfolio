@@ -27,7 +27,9 @@ body{
 .full {
     padding: 20px;
     margin: 5px;
-    background-color: white
+    background-color: white;
+    clear: both;
+    overflow: auto
 }
 h2 {
     color: #4aaaa5;
@@ -35,8 +37,8 @@ h2 {
 }
 #image {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 250px;
     padding: 20px
 }
 footer {
@@ -53,3 +55,51 @@ a {
 p{
     margin: auto;
     line-height: 32px;
+}
+.gallery {
+    float: left;
+    margin: 30px;
+    position: relative;
+
+}
+figure {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+
+.box {
+    width: 186px;
+    height: 50px;
+    background: #4aaaa5;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 20px;
+    left: 1px;
+
+    
+  }
+
+  /* .box-1 {
+    top: 154px;
+    right: -635px;
+    
+  } 
+
+  .box-2 {
+    top: 300px;
+    right: -635px;
+  } 
+
+  .box-3 {
+    top: 9px;
+    right: 15px;
+  } 
+  .box-4 {
+    top: 161px;
+    right: 15px;
+  }  */
