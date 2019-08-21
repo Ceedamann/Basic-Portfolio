@@ -45,7 +45,9 @@ footer {
     background-color: #666666;
     padding: 20px;
     border-top: #4aaaa5 solid 9px;
-
+    clear: both;
+    padding: 20px;
+    text-align: center
 
 }
 a {
@@ -60,16 +62,13 @@ p{
     float: left;
     margin: 30px;
     position: relative;
-
 }
 figure {
     margin: 0;
     color: white;
     text-align: center;
     padding: 5px;
-
-
-}
+    }
 
 
 .box {
