@@ -1,0 +1,47 @@
+header{
+    background-color: #ffffff;
+    border-bottom: solid 2px;
+    border-color: #cccccc;
+    height: 50px;
+    padding: 5px 0 50px 25%;
+}
+h1 {
+    background: #4aaaa5;
+    margin: 3px;
+    float: left;
+    color: white;
+    padding: 29px 7px 24px 8px;
+    
+}
+#link {
+    float: right;
+    width: 5%;
+    padding: 10px;
+   
+}
+body{
+    width: 960px;
+    margin: auto;
+    background-image: url("../images/white-waves.png");
+    clear: both;
+}
+.full {
+    padding: 20px;
+    margin: 5px;
+    background-color: white
+}
+h2 {
+    color: #4aaaa5;
+    
+}
+#image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px
+}
+footer {
+    background-color: #666666;
+    padding: 20px;
+
+}
