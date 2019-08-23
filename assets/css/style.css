@@ -86,22 +86,14 @@ figure {
     
   }
 
-  /* .box-1 {
-    top: 154px;
-    right: -635px;
-    
-  } 
-
-  .box-2 {
-    top: 300px;
-    right: -635px;
-  } 
-
-  .box-3 {
-    top: 9px;
-    right: 15px;
-  } 
-  .box-4 {
-    top: 161px;
-    right: 15px;
-  }  */
+  @media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+      background-color: #333;
+    }
+  
+    /* The wrapper's width will be 600px */
+    .full {
+      width: 600px;
+    }
+  }
